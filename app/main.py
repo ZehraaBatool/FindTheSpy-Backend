@@ -5,7 +5,7 @@ from .routers import game
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "https://your-vercel-app.vercel.app"]
+origins = ["http://localhost:3000", "https://find-the-spy-frontend.vercel.app/"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
